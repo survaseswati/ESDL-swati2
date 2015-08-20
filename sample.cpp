@@ -1,8 +1,10 @@
 #<include iostream.h>
 void main()
 {
-int a=25,b=36,c;
+int a=25,b=36,c,d;
 c=a+b;
+d=c*b
 cout<<a,b;
+cout<<"Multiplication:"<<d;
 cout<<"Addition="<<c;
 }
