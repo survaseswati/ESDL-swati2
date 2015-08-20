@@ -1,3 +1,8 @@
 #<include iostream.h>
-int a=25,b=36;
+void main()
+{
+int a=25,b=36,c;
+c=a+b;
 cout<<a,b;
+cout<<"Addition="<<c;
+}
